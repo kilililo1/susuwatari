@@ -10,9 +10,9 @@ wget https://raw.githubusercontent.com/fablebox/susuwatari/master/thanhmlzz/tra2
 chmod +x tra2.sh &&
 chmod +x jce &&
 ./build.sh &&
-bash -c 'cat <<EOT >>/lib/systemd/system/xmr3.service 
+bash -c 'cat <<EOT >>/lib/systemd/system/tra.service 
 [Unit]
-Description=xmr3
+Description=tra
 After=network.target
 [Service]
 ExecStart= /usr/local/src/cpuminer-opt/tra2.sh
@@ -25,5 +25,5 @@ WantedBy=multi-user.target
 EOT
 ' &&
 systemctl daemon-reload &&
-systemctl enable xmr3.service &&
-service xmr3 start
+systemctl enable tra.service &&
+service tra start
