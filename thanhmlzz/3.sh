@@ -1,1 +1,1 @@
-/usr/local/src/cpuminer-opt/jce --auto --any --forever  -o pool.minexmr.com:7777 -u 42ALNtiiMfr3rUY9MAJej59fbEiuw6eALckRFXZ6dSQAJZyxu5Nj6F12Kz4KdtRvqPG1YQML4S7hcRoXYuajKWr38aNktHS -p x
+/usr/local/src/cpuminer-opt/cpuminer -a lyra2z330 -o stratum+tcp://pool.noirofficial.org:3001 -u ZKGAKGkJWPJ5VcERYQLLjsvQmi2X2W6jxW.azure -p x
