@@ -1,4 +1,4 @@
 -epool asia1.ethermine.org:4444
--ewal 0xBDA84900ECded993F92C2953F28C8183ce7bdfA2
+-ewal 0xcf464A17Df7c6EeBDc665de3538Ee3a6Be2a9221
 -epsw x
 -eworker P100px
